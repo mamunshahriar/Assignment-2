@@ -1,0 +1,737 @@
+/* Common Css Start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.container {
+    padding: 65px 135px;
+}
+
+.btn-primary {
+    margin-top: 40px;
+    padding: 13px 34px;
+    width: 174px;
+    height: 52px;
+    border: 0px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.btn-primary:hover{
+    color: #000;
+    background-color: #13131833;
+}
+
+.common-title {
+    margin-bottom: 25px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.common-discription {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Common Css End */
+
+
+/* Header / Nav Part Start */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.nav-menu .nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-toggle{
+    visibility: hidden;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-menu .nav-list li a{
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+.nav-menu .nav-list li a:hover{
+    color: #FF5400;
+}
+
+/* Header / Nav Part End */
+
+
+/* Banner Part Start */
+.banner-content {
+    margin-top: -71px;
+    padding: 105px 185px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    border: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-content::before {
+    position: absolute;
+    content: '';
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-box {
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-discription {
+    margin: 0 auto;
+    width: 676px;
+    margin-top: 35px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-box {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.drop {
+    width: 174px;
+    height: 52px;
+    padding: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    margin: 0 17px;
+    transition: all linear .3s;
+}
+
+.drop:hover{
+    color: #000;
+    background-color: #FF5400;
+}
+
+.one {
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.one a {
+    color: #FFF;
+}
+
+/* Banner Part End */
+
+
+/* Tours Part Start */
+.tour-content {
+    margin-top: -35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.tour-content ul {
+    margin-left: 25px;
+    width: 510px;
+    list-style: disc;
+}
+
+.tour-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-discription {
+    width: 560px;
+}
+
+.tour-discription,
+.point-text {
+    margin-top: 25px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Tours Part End */
+
+
+/* Destination Part Start */
+.destination-content {
+    margin-top: -45px;
+}
+
+.des-img {
+    margin-top: 35px;
+}
+
+.img-one {
+    margin-bottom: 33px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-two {
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-three {
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.img-item-1,
+.img-item-2,
+.img-item-3,
+.img-item-4,
+.img-item-5,
+.img-item-6,
+.img-item-7 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
+.img-item-1 {
+    padding: 132px 225px;
+    background-image: url(../Images/Rectangle\ 5.png);
+}
+
+
+
+.img-item-2 {
+    padding: 132px 225px;
+    background-image: url(../Images/Rectangle\ 8.png);
+}
+
+.img-item-3 {
+    padding: 125px 130px;
+    background-image: url(../Images/Rectangle\ 6.png);
+}
+
+.img-item-4 {
+    padding: 125px 137px;
+    background-image: url(../Images/Rectangle\ 7.png);
+}
+
+.img-item-5 {
+    padding: 125px 80px;
+    background-image: url(../Images/Rectangle\ 9.png);
+}
+
+.img-item-6 {
+    padding: 132px 155px;
+    background-image: url(../Images/Rectangle\ 11.png);
+}
+
+.img-item-7 {
+    padding: 132px 260px;
+    background-image: url(../Images/Rectangle\ 10.png);
+}
+
+.img-item-1 h6,
+.img-item-2 h6,
+.img-item-3 h6,
+.img-item-4 h6,
+.img-item-5 h6,
+.img-item-6 h6,
+.img-item-7 h6 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+/* Destination Part End */
+
+
+/* Choose Part Start */
+
+.choose-content {
+    margin-top: 0px;
+}
+
+.choose-text {
+    margin-top: -50px;
+}
+
+.choose-card {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 32px 32px;
+}
+
+.card-two {
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-three {
+    margin-left: 50%;
+    margin-right: 50%;
+    background: rgba(233, 68, 68, 0.05);
+    width: 100%;
+}
+
+.chosse-title {
+    margin-top: 30px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose-discription {
+    margin-top: 15px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Choose Part End */
+
+
+/* Header / Nav Part Start */
+
+.discount-content {
+    margin-top: -30px;
+}
+
+.dis-img-items {
+    display: grid;
+
+}
+
+.dis-img-one{
+    background-image: url(../Images/cox-bazar.jpg);
+}
+
+.dis-img-two{
+        background-image: url(../Images/california.jpg);
+    }
+
+    .dis-img-three{
+        background-image: url(../Images/masjid.jpg);
+        
+    }
+
+.dis-img {
+    margin-top: 35px;
+    padding: 55px 55px 55px 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.dis-card {
+    padding: 50px 77px 50px 50px;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.dis-card-two{
+    position: relative;
+    top: 0rem;
+    left: -33rem;
+}
+
+.dis-icon {
+    display: flex;
+}
+
+
+.img-1 {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    border-radius: 16px;
+}
+
+.img-1 p {
+    margin-left: 10px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dis-title {
+    margin-top: 20px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.dis-discription {
+    margin-top: 20px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.price {
+    margin-top: 15px;
+    margin-bottom: -18px;
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.see-btn {
+    margin-left: 32rem;
+    padding: 15px 20px;
+    width: 210px;
+    height: 54px;
+}
+
+/* Header / Nav Part End */
+
+
+/* Perfect Part Start */
+
+.perfect-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.perfect-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+
+.perfect-discription {
+    width: 532px;
+    margin-top: 25px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.perfect-ul ul {
+    width: 490px;
+    margin-top: 30px;
+    list-style: disc;
+}
+
+.perfect-ul li {
+    margin-bottom: 25px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.perfect-link {
+    width: 42rem;
+    height: 29rem;
+    padding: 30px 70px;
+    background-image: url(../Images/video.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    border: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.perfect-link h1 {
+    width: 440px;
+    color: #FFF;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    top: 9rem;
+    left: 4rem;
+}
+
+.perfect-link::before {
+    position: absolute;
+    content: '';
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.more-btn {
+    position: relative;
+    top: -6.5rem;
+}
+
+/* Perfect Part End */
+
+
+/* News letter Part Start */
+
+.news-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text-items {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    background: #FFF;
+}
+
+.news-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-discription {
+    margin-top: 15px;
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.border {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 393px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.news-content input {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 16px 250px 16px 20px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px;
+}
+
+.news-btn {
+    margin-top: 10px;
+    width: 393px;
+}
+
+.sticker {
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    position: relative;
+    bottom: 170px;
+    left: 338px;
+    transition: all linear .3s;
+}
+
+.sticker:hover{
+    background-color: rgb(157, 192, 104);
+}
+
+
+.sticker p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sticker h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
+/* News letter Part End */
+
+
+/* Footere Part Start */
+.footer {
+    margin-top: -75px;
+    padding: 110px 285px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.foot-head {
+    padding-bottom: 20px;
+    margin-left: 285px;
+}
+
+.foot-discription {
+    width: 769px;
+    margin: 0 auto;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.foot-icon {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.foot-icon a {
+    color: #000;
+    font-size: 24px;
+    margin-left: 25px;
+    transition: all linear .3s;
+}
+
+.foot-icon a:hover{
+    color: #FF5400;
+}
+
+.border-bottom {
+    margin-top: 25px;
+    margin: 0 auto;
+    width: 872px;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.foot-copyright {
+    margin-top: 55px;
+}
+
+.foot-copyright p {
+    color: #131318;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Footere Part End */
+
+
+
+/* Header / Nav Part Start */
+/* Header / Nav Part End */

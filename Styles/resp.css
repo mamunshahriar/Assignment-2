@@ -1,0 +1,554 @@
+/* Responsive for small devices */
+
+@media screen and (max-width:575.99px) {
+
+    /* Nav/Banner */
+
+    .container {
+        padding: 65px 0px 65px 172px;
+    }
+
+    .nav-content {
+        flex-direction: column;
+    }
+
+    .nav-icon {
+        position: relative;
+        top: 0rem;
+        left: 11rem;
+    }
+
+    .nav-icon img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .nav-title {
+        width: 40rem;
+    }
+
+    .nav-title span,
+    .nav-title{
+        font-size: 4rem;
+    }
+
+    .nav-menu {
+        visibility: hidden;
+    }
+
+
+    .nav-toggle {
+        visibility: visible;
+        width: 16.5px;
+        height: 10.5px;
+        font-size: 6rem;
+        position: relative;
+        top: 0rem;
+        left: 63rem;
+        cursor: pointer;
+    }
+    
+    .nav-toggle a{
+        color: #000;
+        transition: all linear .3s;
+    }
+    
+    .nav-toggle a:hover{
+        background-color: #FF5400;
+    }
+
+
+    .banner-content {
+        padding-left: 40px;
+        padding-right: 66rem;
+    }
+
+    .banner-title {
+        width: 67rem;
+    }
+
+    .banner-discription {
+        font-size: 36px;
+        line-height: 45px;
+        width: 62rem;
+    }
+
+    .banner-box {
+        margin-top: 5rem;
+        margin-bottom: -1rem;
+        width: 63.4rem;
+    }
+
+    .drop {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        width: 50rem;
+        height: 10rem;
+        font-size: 40px;
+    }
+
+    /* Tour */
+
+    .tour-content {
+        flex-direction: column;
+    }
+
+    .tour-title {
+        font-size: 65px;
+        width: 40rem;
+    }
+
+
+    .tour-discription,
+    .point-text {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        width: 60rem;
+    }
+
+
+    .btn-primary {
+        margin-top: 5rem;
+        width: 35rem;
+        height: 10rem;
+        border-radius: 2rem;
+        font-size: 3rem;
+    }
+
+    .tour-img {
+        margin-top: 3rem;
+    }
+
+    .tour-img img {
+        width: 68.5rem;
+        height: 65rem;
+    }
+
+
+    /* Destination */
+
+    .destination-content {
+        margin-top: 3rem;
+    }
+
+    .des-text,
+    .choose-text,
+    .dis-text {
+        width: 68.5rem;
+        height: 10rem;
+    }
+
+    .common-title {
+        text-align: center;
+        font-size: 90px;
+    }
+
+    .common-discription {
+        margin-bottom: 5rem;
+        width: 67rem;
+        font-size: 3rem;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .des-img {
+        margin-top: 13rem;
+    }
+
+    .img-one,
+    .img-two,
+    .img-three {
+        display: block;
+    }
+
+    .img-item-1,
+    .img-item-2,
+    .img-item-3,
+    .img-item-4,
+    .img-item-5,
+    .img-item-6,
+    .img-item-7 {
+        margin-bottom: 4rem;
+    }
+
+    .img-item-1,
+    .img-item-2,
+    .img-item-3,
+    .img-item-4,
+    .img-item-5,
+    .img-item-6,
+    .img-item-7 {
+        width: 68.5rem;
+        height: 35rem;
+    }
+
+    .img-item-1 h6,
+    .img-item-2 h6,
+    .img-item-3 h6,
+    .img-item-4 h6,
+    .img-item-5 h6,
+    .img-item-6 h6,
+    .img-item-7 h6 {
+        font-size: 6rem;
+        width: 43rem;
+
+        position: relative;
+        top: 5rem;
+        left: 6rem;
+
+    }
+
+    .img-item-3 h6 {
+        left: 13rem;
+    }
+
+    .img-item-4 h6 {
+        left: 5rem;
+    }
+
+    .img-item-5 h6 {
+        left: 18rem;
+    }
+
+    .img-item-6 h6 {
+        left: 9rem;
+    }
+
+    .img-item-7 h6 {
+        left: 3rem;
+    }
+
+
+    /* Chooose */
+
+    .choose-text {
+        margin-bottom: 15rem;
+    }
+
+    .card-three,
+    .card-one,
+    .card-two {
+        padding: 35px 55px 35px 110px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .choose-card {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
+    .card {
+        width: 70rem;
+        height: 55rem;
+    }
+
+    .card img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .chosse-title {
+        margin-top: 2.5rem;
+        font-size: 5rem;
+    }
+
+    .choose-discription {
+        margin-top: 3.5rem;
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+
+    /* Discount */
+
+    .dis-img {
+        height: 64rem;
+        margin-top: 15rem;
+        padding: 55px 50px 55px 360px;
+        border-radius: 4.5rem;
+        border: 0px;
+    }
+
+    .dis-card {
+        padding: 50px 55px 50px 55px;
+        width: 45rem;
+        height: 45rem;
+        border-radius: 3rem;
+        position: relative;
+        top: 13rem;
+        right: 9rem;
+    }
+
+    .img-1 {
+        margin-right: 1rem;
+    }
+
+    .img-1 img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .dis-card-two {
+        position: relative;
+        top: 6rem;
+        left: -9rem;
+    }
+
+    .img-1 .img-watch {
+        display: block;
+    }
+
+    .img-1 p {
+        margin-left: 1px;
+        font-size: 24px;
+    }
+
+    .dis-title {
+        margin-top: 20px;
+        font-size: 55px;
+    }
+
+    .dis-discription {
+            margin-top: 15px;
+            font-size: 38px;
+            line-height: 45px;
+            margin-bottom: -4rem;
+    }
+
+    .dis-discription span{
+        visibility: hidden;
+    }
+
+    .price {
+        margin-top: 50px;
+        margin-bottom: -53px;
+        font-size: 40px;
+    }
+
+    .see-btn {
+        visibility: hidden;
+    }
+
+
+    /* Perfect */
+
+    .perfect-content {
+        margin-top: -15rem;
+        flex-direction: column;
+    }
+
+    .perfect-title {
+        width: 60rem;
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .perfect-discription {
+        width: 75rem;
+        margin-top: 2rem;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .perfect-ul li {
+        width: 72rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .perfect-link {
+        width: 72rem;
+        height: 44rem;
+    }
+
+    .perfect-link h1 {
+        width: 51rem;
+        text-align: center;
+        font-size: 5rem;
+        line-height: 6rem;
+        position: relative;
+        top: 16rem;
+        left: 8rem;
+    }
+
+    .more-btn {
+        margin-top: 15rem;
+    }
+
+
+    /* News */
+
+    .news-content {
+        margin-top: -5rem;
+        flex-direction: column;
+    }
+
+    .news-text {
+        width: 66rem;
+        height: 70rem;
+    }
+
+    .news-title {
+        font-size: 5rem;
+    }
+
+    .news-discription {
+        width: 50rem;
+        font-size: 40px;
+        line-height: 4rem;
+    }
+
+    .news-content input {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 16px 250px 16px 85px;
+        width: 61rem;
+        height: 9rem;
+        border-radius: 1.5rem;
+        font-size: 3rem;
+        border: 0px;
+    }
+
+    .news-img img {
+        width: 67rem;
+        height: 60rem;
+        margin-bottom: -10rem;
+    }
+
+    .sticker {
+        border-radius: 20px;
+        width: 508px;
+        height: 185px;
+        bottom: 110px;
+        left: 543px;
+    }
+
+    .sticker p {
+        font-size: 40px;
+    }
+
+    .sticker h3 {
+        font-size: 54px;
+    }
+
+
+    /* Footer */
+
+    .footer {
+        margin-top: 5rem;
+        padding: 5rem 45rem 5rem 45rem;
+    }
+
+    .foot-text {
+        margin-left: 0rem;
+    }
+
+    .foot-head {
+        width: 45rem;
+        padding-bottom: 20px;
+        margin-left: -33rem;
+        font-size: 5rem;
+    }
+
+    .foot-head img {
+        width: 9rem;
+        height: 8rem;
+    }
+
+    .foot-title{
+        width: 32rem;
+    }
+
+    .foot-title,
+    .foot-title span {
+        font-size: 55px;
+    }
+
+    .foot-discription {
+        width: 62rem;
+        margin: 0rem -33rem;
+        color: #5A5A5D;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 65px;
+    }
+
+    .foot-icon {
+        left: -28rem;
+        margin-top: 5rem;
+        width: 50rem;
+        position: relative;
+    }
+
+    .foot-icon a {
+        font-size: 80px;
+        margin-left: 90px;
+    }
+
+    .border-bottom {
+        margin-left: -40rem;
+        width: 79rem;
+    }
+
+    .foot-copyright p {
+        width: 25rem;
+        margin-left: -10rem;
+        font-size: 2rem;
+    }
+
+}
+
+/* Responsive for Mobile */
+
+@media screen and (max-width:360px) {
+
+    /* Nav */
+    .nav-title {
+        width: 14rem;
+        color: #131318;
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .nav-icon {
+        position: relative;
+        left: 16.5rem;
+    }
+
+    .nav-title {
+        width: 40rem;
+        font-size: 66px;
+    }
+
+    .nav-title span {
+        color: #FF5400;
+        font-size: 66px;
+        font-weight: 800;
+    }
+
+    .nav-toggle {
+        position: relative;
+        top: -6.5px;
+        left: 63rem;
+    }
+
+    /* Foot */
+    .footer {
+        padding: 15rem 45rem 5rem 45rem;
+    }
+
+    .foot-head img {
+        margin-right: -22rem;
+        position: relative;
+        top: -9rem;
+        left: 4rem;
+    }
+
+    .foot-discription {
+        width: 68rem;
+    }
+
+}
